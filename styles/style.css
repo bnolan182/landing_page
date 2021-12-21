@@ -1,0 +1,154 @@
+body {
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar Section */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: #1f2937;
+  padding: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #f9faf8;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  color: #f9faf8;
+  background-color: #1f2937;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.hero-img img {
+  height: 300px;
+  width: 450px;
+  border-radius: 35px;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+.hero-call button {
+  text-align: center;
+  width: 100px;
+  border: none;
+  background: #3882f6;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Info Section */
+.info {
+  align-items: center;
+}
+
+.info-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.info-content img {
+  height: 150px;
+  width: 150px;
+  border-radius: 8px;
+  margin: 0px 50px 0px 50px;
+  border: 2px solid #3882f6;
+}
+
+/* Quote section */
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  padding: 0px 200px;
+}
+
+.quote p {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: lighter;
+  font-family: Helvetica, sans-serif;
+}
+
+.quote b {
+  padding-bottom: 40px;
+  padding-right: 70px;
+  font-family: Helvetica, sans-serif;
+  text-align: right;
+}
+
+/* CTA section */
+.cta {
+  background-color: #3882f6;
+  display: flex;
+  align-items: center;
+  margin: 50px 200px;
+  padding: 10px 45px;
+  border-radius: 8px;
+}
+
+.cta-text {
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+  color: #fff;
+  flex: 1;
+}
+
+.cta-text p {
+  opacity: 0.8;
+}
+
+.cta-sign button {
+  text-align: center;
+  width: 100px;
+  border: solid 2px #fff;
+  background: #3882f6;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Footer section */
+.footer {
+  background-color: #1f2937;
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+}
