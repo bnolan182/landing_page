@@ -1,4 +1,4 @@
-# landing_page
+# Landing Page
 
 This is a mock landing page for the Odin Project.
 
